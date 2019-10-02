@@ -1,0 +1,101 @@
+/**************************************************************************
+***************** Master Stylesheet for Vermun************************
+***************************************************************************
+=========================== Content Index =================================
+* 1. Miscelnious styles 
+* 2. Top line style
+* 3. Navigation styles 
+* 4. Welcome section styles 
+* 5. Our futured services section styles
+* 6. Our services section styles
+* 7. Our numbers section styles
+* 8. Our faq section styles
+* 9. Our team section styles
+* 10. Testimonials section styles
+* 11. Our blogs section styles 
+* 12. Contact us section styles
+* 13. Get a quote section styles
+* 14. Main footer section styles
+* 15. Footer section styles
+* 16. Contact us page styles
+* 17. BLOG STANDARD page styles
+* 18. BLOG SBIG page styles
+* 19. BLOG SINGLE POST page styles
+* 20. Financial planing page styles
+* 21. About us page styles
+* 22. Our team page styles
+* 23. Testimonials page styles
+* 24. Single project page styles
+* 25. Project section page styles
+* 26. Faq page styles
+
+***************************************************************************
+**************************************************************************/
+/***************************************
+* 1. Miscelnious styles 
+****************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Source+Sans+Pro:300,400,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, div, section, summary {
+    display: block;
+}
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+a.btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-family: "Montserat", Arial, Calibri, sans-serif;
+    width: 100%;
+    color: #505458;
+    margin: 0 auto;
+    position: relative;
+    background: #eee;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.home-wrapper {
+    margin: 100px 20px;
+}
+.home-wrapper .title h1 {
+    text-align: center;
+    line-height: 42px;
+    font-size: 30px;
+}
+.h1 img  {
+    transition: .3s ease-in;
+}
+.h1 img:hover  {
+    -webkit-box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.52);
+    box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.52);
+}
+.h1 .title  {
+    padding-top: 30px;
+}
+.h1 .title h3 {
+    text-align: center;
+    font-family: "Montserat", Arial, Calibri, sans-serif;
+    font-weight: 600;
+    font-size: 20px;    
+}
+footer {
+    padding-top: 150px;
+    text-align: center;
+}
